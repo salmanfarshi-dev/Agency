@@ -1,20 +1,19 @@
-import React from 'react'
-import Image from './Image';
-
-function Cards({src,tittle,pera,height}) {
+function Cards({ src, tittle, pera, height, className }) {
   return (
-   <>
-  
-<div className='bg-indigo-300 items-center flex text-center flex-col w-[424px] px-[50px] rounded-[20px]'>
- <img className={`${height} object-fit-cover`} src={src} alt="" />
-  <h4 className='font-bold font-inter text-[25px] text-success mt-[40px] mb-[20px]'>{tittle}</h4>
-  <p>{pera}</p>
+    <div
+      className={`bg-white items-center flex text-center flex-col lg:w-[424px] rounded-[20px] duration-300 ${className}`}
+    >
+      <img className={`${height} object-cover`} src={src} alt="" />
 
-</div>
+      <h4 className='font-bold font-inter lg:text-[25px] text-success mt-[40px] mb-[20px]'>
+        {tittle}
+      </h4>
 
-
-   </>
-  )
+      <p className="lg:text-base text-sm lg:w-[310px] text-secondary">
+        {pera}
+      </p>
+    </div>
+  );
 }
 
 export default Cards;
