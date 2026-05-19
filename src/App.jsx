@@ -167,7 +167,7 @@ function App() {
 
 {/* Choose Agenc  */}
 
-<div className="lg:container mx-auto lg:px-20 px-4 mb-[150px] flex flex-col lg:flex-row justify-between items-end  lg:text-start lg:mb-[150px] mt-10 lg:mt-[150px]">
+<div className="lg:container mx-auto lg:px-20 px-4 lg-[150px] flex flex-col lg:flex-row justify-between items-end  lg:text-start lg:mb-[150px] mt-10 lg:mt-[150px]">
 
 <div className="">
    <Subheading text="Why You Should Choose Agenc" className="lg:w-[500px] text-start"/>
