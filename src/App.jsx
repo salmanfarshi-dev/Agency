@@ -27,6 +27,7 @@ import Image from './component/Image'
 import Cards from './component/Cards'
 import H3tag from './component/h3tag'
 import Span from './component/Span'
+import Reviews from './layout/Reviews'
 
 
 function App() {
@@ -195,7 +196,8 @@ function App() {
 <Image src={Agenc} alt="Agency" className="lg:w-fit w-[300px] mx-auto py-20 lg:py-0"/>
 
 </div>
- 
+
+<Reviews  />
 
 
    </>
