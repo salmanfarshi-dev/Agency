@@ -28,6 +28,9 @@ import Cards from './component/Cards'
 import H3tag from './component/h3tag'
 import Span from './component/Span'
 import Reviews from './layout/Reviews'
+import Design from './layout/Design'
+import Footer from './layout/Footer'
+import Copyright from './layout/Copyright'
 
 
 function App() {
@@ -198,6 +201,11 @@ function App() {
 </div>
 
 <Reviews  />
+
+<Design/>
+
+<Footer/>
+<Copyright/>
 
 
    </>
